@@ -9,8 +9,7 @@
 "homepage": "https://amandagamlen.github.io/loader/",
 "scripts": {
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-  "build": "webpack --config webpack.config.js"
+  "deploy": "gh-pages -d dist"
 }
 }
 
