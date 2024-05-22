@@ -1,6 +1,15 @@
 {
+  "homepage": "https://amandagamlen.github.io/loader/",
+
   "dependencies": {
     "three": "^0.151.3"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "^4.3.1"
