@@ -1,7 +1,7 @@
 {
 "homepage": "https://amandagamlen.github.io/loader/",
 "scripts": {
-  "predeploy": "npm run build",
+  "predeploy": "npx vite",
   "deploy": "gh-pages -d dist"
 }
 
