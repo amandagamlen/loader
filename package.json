@@ -10,7 +10,7 @@
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist",
-  "build": "npm build"
+  "build": "webpack --config webpack.config.js"
 }
 }
 
