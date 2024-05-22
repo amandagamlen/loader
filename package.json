@@ -1,6 +1,5 @@
 {
   "homepage": "https://amandagamlen.github.io/loader/",
-
   "dependencies": {
     "three": "^0.151.3"
   },
@@ -12,6 +11,7 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "vite": "^4.3.1"
   }
 }
